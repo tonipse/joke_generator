@@ -1,7 +1,7 @@
 {
-   "name": "",
-   "version": "0.0.0",
-   "description": "",
+   "name": "jokegen",
+   "version": "1.0.0",
+   "description": "Jpkegenerator by Toni Peise",
    "private": true,
    "scripts": {
       "dev": "parcel src/*.html",
@@ -9,14 +9,14 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/tonipse/webpack.git"
+      "url": "git+https://github.com/tonipse/joke_generator.git"
    },
-   "author": "",
+   "author": "Toni Peise",
    "license": "ISC",
    "bugs": {
-      "url": "https://github.com/tonipse/webpack/issues"
+      "url": "https://github.com/tonipse/joke_generator/issues"
    },
-   "homepage": "https://github.com/tonipse/webpack#readme",
+   "homepage": "https://github.com/tonipse/joke_generator#readme",
    "devDependencies": {
       "parcel-bundler": "^1.12.4",
       "sass": "^1.26.5"
