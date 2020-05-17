@@ -7,7 +7,18 @@
       <link rel="stylesheet" href="./styles/main.scss" />
    </head>
    <body>
-      content here
+      <h1>Joke Generator</h1>
+
+      <form id="jokeForm" autocomplete="false">
+         <label for="firstName">First Name</label>
+         <input type="text" id="firstName" placeholder="Chuck" />
+         <label for="lastName">First Name</label>
+         <input type="text" id="lastName" placeholder="Norris" />
+         <button type="submit" id="jokeBtn">Get Joke</button>
+      </form>
+      <div class="txt">
+         <p id="jokeText"></p>
+      </div>
       <script src="./index.js"></script>
    </body>
 </html>

@@ -5,4 +5,49 @@ body {
    box-sizing: border-box;
 
    font-family: "Montserrat";
+
+   color: white;
+}
+
+$primary: rgb(53, 53, 71);
+$secondary: rgb(129, 62, 62);
+h1 {
+   font-size: 100pt;
+   color: white;
+   text-align: center;
+   background-color: $primary;
+   padding: 10px;
+   z-index: 10;
+}
+.txt {
+   p {
+      font-size: 20pt;
+      text-align: center;
+      color: black;
+   }
+}
+form {
+   margin-left: 50%;
+   transform: translateX(-50%);
+   display: flex;
+   flex-direction: column;
+   width: 200px;
+}
+input {
+   color: white;
+   background-color: $primary;
+   border: none;
+   padding: 5px;
+   padding-left: 15px;
+   font-size: 18pt;
+   border-radius: 30pt;
+}
+button {
+   margin-top: 20px;
+   padding: 5px;
+   border-radius: 30px;
+   border: none;
+   background-color: $secondary;
+   color: white;
+   font-size: 18pt;
 }
