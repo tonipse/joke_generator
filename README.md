@@ -1,1 +1,1 @@
-# template by Toni Peise with Parcel.js
+# Joke Generator by Toni Peise
